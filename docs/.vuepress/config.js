@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'kubecube front components',
-  base: '/dist',
+  base: '.',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
