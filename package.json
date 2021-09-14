@@ -1,0 +1,32 @@
+{
+  "name": "kubecube-front-components",
+  "version": "0.0.1",
+  "description": "kubecube 前端组件使用说明文档",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/kubecube-front-components",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1",
+    "icon-font-loader": "^3.0.2",
+    "vuepress": "^1.3.1"
+  },
+  "dependencies": {
+    "@joskii/jchart": "^1.0.5",
+    "bignumber.js": "^9.0.1",
+    "cloud-ui.vusion": "^0.11.49",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "lodash": "^4.17.21",
+    "parse-ms": "^3.0.0",
+    "vee-validate": "^3.4.12"
+  }
+}

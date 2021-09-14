@@ -1,0 +1,31 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020,
+        "ecmaFeatures": {
+            "globalReturn": false,
+            "modules": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "rules": {
+        "vue/require-default-prop": 0,
+        "consistent-return": 2,
+        "indent"           : [1, 4],
+        "no-else-return"   : 1,
+        "semi"             : [1, "always"],
+        "space-unary-ops"  : 2,
+        "no-alert"         : 2,
+        "no-caller"        : 2,
+        "no-return-assign" : 1
+    }
+}
