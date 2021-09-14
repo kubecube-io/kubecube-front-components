@@ -2,6 +2,8 @@
 
 > kubecube 前端组件使用说明文档
 
+[Document](https://www.kubecube.io/kubecube-front-components/dist/)
+
 ## Development
 
 ```bash
