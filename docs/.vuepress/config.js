@@ -49,23 +49,35 @@ module.exports = {
         link: 'https://github.com/wt911122/JChart'
       }
     ],
-    sidebar: {
-      '/common-components/': [
+    sidebar: [
         {
           title: 'Common Components',
           collapsable: false,
+          sidebarDepth: 1,    // optional, defaults to 1
+          path: '/common-components/',
           children: [
-            '',
-            'kubetable',
-            'x-request',
-            'kubedynamic',
-            'kubeformtab',
-            'kubetree',
-            'kubepipe'
+            '/common-components/',
+            '/common-components/kubetable',
+            '/common-components/x-request',
+            '/common-components/kubedynamic',
+            '/common-components/kubeformtab',
+            '/common-components/kubetree',
+            '/common-components/kubepipe',
+            '/common-components/kube-chart',
           ]
+        },
+          {
+            title: 'Methodology',
+            path: '/methodology',
+            collapsable: false,
+            children: [
+                '/methodology/',
+                '/methodology/v-model',
+                '/methodology/x-request',
+                'methodology/vee-validate'
+            ]
         }
-      ],
-    }
+    ]
   },
 
   /**
@@ -75,5 +87,8 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     require('./alias.js'),
+    ['vuepress-plugin-code-copy', {
+        align: 'bottom'
+    }]
   ]
 }

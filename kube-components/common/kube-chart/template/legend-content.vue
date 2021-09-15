@@ -56,7 +56,6 @@ export default {
     cursor: pointer;
     user-select: none;
     font-size: .8em;
-    line-height: 1em;
     display: inline-block;
     padding: 0 .5em;
 }

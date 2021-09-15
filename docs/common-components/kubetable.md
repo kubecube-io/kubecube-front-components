@@ -5,8 +5,6 @@ kube-table 优化了表格加载样式，使用具名插槽的方式，可以适
 ## Demo
 <demo-kube-table-normal />
 
-<<< @/docs/.vuepress/components/demo/kube-table/normal.vue
-
 ## Props
 | props   | description | example |
 | ------------- |:-------------| :-----|
@@ -56,3 +54,5 @@ kube-table 优化了表格加载样式，使用具名插槽的方式，可以适
 ```javascript
 @sort="(order, name) => {}"
 ```
+
+<<< @/docs/.vuepress/components/demo/kube-table/normal.vue

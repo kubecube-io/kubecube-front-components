@@ -7,9 +7,6 @@ kube-form-tab 优化了 tab 的切换模式，也可以更方便的使用 v-mode
 
 <demo-kube-form-tab />
 
-### demo.vue
-<<< @/docs/.vuepress/components/demo/kube-form-tab.vue
-
 ## v-model
 list: Array\<Object\>
 
@@ -52,3 +49,7 @@ list: Array\<Object\>
 </kube-tab>
 </template>
 ```
+
+
+### demo.vue
+<<< @/docs/.vuepress/components/demo/kube-form-tab.vue

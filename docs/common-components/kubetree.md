@@ -6,8 +6,6 @@
 
 <demo-kube-tree />
 
-<<< @/docs/.vuepress/components/demo/kube-tree.vue
-
 ## v-model
 value: Object
 
@@ -16,3 +14,5 @@ value: Object
 | ------------- |:-------------| :-----|
 | title | 顶层名称 | undefined | 
 | disabled | 禁用 | false | 
+
+<<< @/docs/.vuepress/components/demo/kube-tree.vue

@@ -5,8 +5,6 @@
 ## Demo
 <demo-x-request />
 
-<<< @/docs/.vuepress/components/demo/x-request.vue
-
 ## Props
 | props   | description | example |
 | ------------- |:-------------| :-----|
@@ -25,3 +23,5 @@
 | error   | 请求结果状态 | true 或 false |
 | loading | 加载状态 | true 或 false |
 | errormessage | 异常信息 | |
+
+<<< @/docs/.vuepress/components/demo/x-request.vue

@@ -7,8 +7,6 @@
 
 <demo-kube-pipe />
 
-<<< @/docs/.vuepress/components/demo/kube-pipe.vue
-
 ## Props
 ### Pipe
 | props   | description | default |
@@ -23,3 +21,5 @@
 | valve | 子组件 v-model 的对象 |  | 
 | name | 名称，作为 pipe graph 的映射 |  | 
 | component | 壳组件 | div | 
+
+<<< @/docs/.vuepress/components/demo/kube-pipe.vue

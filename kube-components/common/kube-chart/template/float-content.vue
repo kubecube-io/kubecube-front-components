@@ -83,4 +83,16 @@ export default {
 .table td{
     white-space: nowrap;
 }
+.table tr:nth-child(2n) {
+    background-color: transparent;
+}
+.table {
+    border: none;
+}
+.table > tr {
+    border: none;
+}
+.table > tr > td {
+    border: none;
+}
 </style>

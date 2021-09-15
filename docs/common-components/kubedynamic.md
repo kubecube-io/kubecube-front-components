@@ -5,15 +5,6 @@ kube-dynamic-* 可以更方便的使用 v-model 关联组件状态，数组内�
 ## Demo
 <demo-kube-dynamic-form-item />
 
-### table.vue
-<<< @/docs/.vuepress/components/demo/kube-dynamic/table.vue
-
-### block.vue
-<<< @/docs/.vuepress/components/demo/kube-dynamic/block.vue
-
-### form-item.vue
-<<< @/docs/.vuepress/components/demo/kube-dynamic/form-item.vue
-
 ## v-model
 list: Array\<Object\>
 
@@ -35,3 +26,11 @@ list: Array\<Object\>
 | index | 当前行序号 |  |
 | remove | 删除操作（Function） |  |
 
+### table.vue
+<<< @/docs/.vuepress/components/demo/kube-dynamic/table.vue
+
+### block.vue
+<<< @/docs/.vuepress/components/demo/kube-dynamic/block.vue
+
+### form-item.vue
+<<< @/docs/.vuepress/components/demo/kube-dynamic/form-item.vue
